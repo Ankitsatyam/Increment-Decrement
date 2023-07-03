@@ -1,18 +1,18 @@
-// import Name from './Component/Name';
-import './App.css';
-import React from 'react';
-import Buttons from './Component/Buttons';
 
-function App() {
-  let number = 0;
 
-  return (
-    <div>
-      { /* Passing props as value */ }
-      {/* we pass here value = {number} as a props */}
-      <Buttons value={number}></Buttons>
+import Buttons from './Component/Buttons'
+
+
+function App(){
+  
+  
+
+  return(
+    <div className="app">
+      <Buttons />
     </div>
-  );
+  )
 }
+// background : linear-gradient(rgb(245, 149, 5), rgb(243, 240, 243), rgb(28, 209, 11));
 
-export default App;
+export default App
