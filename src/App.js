@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import Name from './Component/Name';
 import './App.css';
+import React from 'react';
+import Button_details from './Component/ButtonDetails';
 
 function App() {
+  let number = 0;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      { /* Passing props as value */ }
+      {/* we pass here value = {number} as a props */}
+      <Button_details value={number}></Button_details>
     </div>
   );
 }
