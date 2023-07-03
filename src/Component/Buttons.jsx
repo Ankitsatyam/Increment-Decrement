@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './ButtonDetails.css'
+import './Buttons.css'
 
 function Button_details(props) { //accepting props in function
 

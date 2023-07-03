@@ -1,7 +1,7 @@
 // import Name from './Component/Name';
 import './App.css';
 import React from 'react';
-import Button_details from './Component/ButtonDetails';
+import Buttons from './Component/Buttons';
 
 function App() {
   let number = 0;
@@ -10,7 +10,7 @@ function App() {
     <div>
       { /* Passing props as value */ }
       {/* we pass here value = {number} as a props */}
-      <Button_details value={number}></Button_details>
+      <Buttons value={number}></Buttons>
     </div>
   );
 }
